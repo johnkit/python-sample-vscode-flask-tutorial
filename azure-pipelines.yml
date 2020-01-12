@@ -27,5 +27,5 @@ steps:
   displayName: 'Install cuteci'
 
 - script: |
-    python -m cuteci --installer http://download.qt.io/official_releases/qt/5.12/5.12.6/single/qt-everywhere-src-5.12.6.tar.xz list
+    cuteci --installer http://download.qt.io/official_releases/qt/5.12/5.12.6/single/qt-everywhere-src-5.12.6.tar.xz list
   displayName: 'Install Qt 5.12'
